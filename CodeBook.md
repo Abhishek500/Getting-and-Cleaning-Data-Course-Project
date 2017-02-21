@@ -4,6 +4,7 @@ The first row contains the names of the variables, which are mentioned in the Va
 Variables
 
 Each row contains, for a given subject and activity, 79 averaged signal measurements.
+
 Identifiers:
 
     subject
@@ -38,7 +39,7 @@ The following transformations were applied to the source data:
     The training and test sets were merged to create one data set.
     The measurements on the mean and standard deviation  were extracted for each measurement, and the others were discarded.
     The activity identifiers were replaced with descriptive activity names.
-    The variable names were replaced with descriptive variable names (e.g. tBodyAcc-mean()-X was expanded to                		timeDomainBodyAccelerometerMeanX)
-    From the data set in step 4, the final data set was created with the average of each variable for each activity and each   	 	 subject.
+    The variable names were replaced with descriptive variable names (e.g. tBodyAcc-mean()-X was expanded to                timeDomainBodyAccelerometerMeanX)
+    From the data set in step 4, the final data set was created with the average of each variable for each activity and each   	subject.
 
 The collection of the source data and the transformations listed above were implemented by the run_analysis.R R script
